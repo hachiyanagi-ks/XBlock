@@ -7,8 +7,15 @@
         </script>
         {{head_html|safe}}
     </head>
-    <body>
-        {{body|safe}}
-        {{foot_html|safe}}
+    <body class="view--workbench">
+        <div class="wrapper--workbench">
+            <div class="workbench">
+                <div class="workbench__preview">
+                    {{body|safe}}
+                </div>
+
+                {{foot_html|safe}}
+            </div>
+        </div>
     </body>
 </html>
